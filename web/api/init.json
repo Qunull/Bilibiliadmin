@@ -1,0 +1,63 @@
+{
+  "clearInfo": {
+    "clearUrl": "api/clear.json"
+  },
+  "homeInfo": {
+    "title": "首页",
+    "icon": "fa fa-home",
+    "href": "/home?opr=count"
+  },
+  "logoInfo": {
+    "title": "LayuiMini",
+    "image": "../images/logo.png",
+    "href": ""
+  },
+  "menuInfo": {
+    "currency": {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "child": [
+        {
+          "title": "主页",
+          "href": "/home?opr=count",
+          "icon": "fa fa-home",
+          "target": "_self"
+        },
+        {
+          "title": "用户管理",
+          "href": "",
+          "icon": "fa fa-user",
+          "target": "_self",
+          "child": [
+            {
+              "title": "普通用户",
+              "href": "/user?opr=userList",
+              "icon": "fa fa-male",
+              "target": "_self"
+            },
+            {
+              "title": "会员用户",
+              "href": "/vip?opr=userList",
+              "icon": "fa fa-user-secret",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "视频管理",
+          "href": "",
+          "icon": "fa fa-youtube-play",
+          "target": "_self",
+          "child": [
+            {
+              "title": "视频信息",
+              "href": "/video?opr=videoList",
+              "icon": "fa fa-file-video-o",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

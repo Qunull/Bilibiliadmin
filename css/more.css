@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.balance{
+    position: relative;
+}
+.top{
+    z-index: 10;
+    background:#fff;;
+    position: fixed;
+    height: 60px;
+    min-width: 1900px;
+    vertical-align: middle;
+}
+.top div .a{
+    font-size: 26px;
+    color: #00a1d6;
+    cursor: pointer;
+    width: 180px;
+    height: 48px;
+
+}
+.top img{
+    vertical-align: middle;
+    margin: 10px 15px
+}
+.topright{
+    float: right;
+    background: #f9f9f9;
+}
+
+body{
+    background:url("../images/beijing.png") no-repeat 0 10px;
+    background-color: #def7ff;
+}
+#balance{
+    position: relative;
+}
+
+.hd, .huati, .gonggao{
+    background-color: #fff;
+}
+.topright{
+    margin-top: -3px;
+    float: right;
+    background: #f9f9f9;
+}
+#biaoti{
+    position: absolute;
+    vertical-align: middle;
+    margin: 50px 360px;
+    margin-top: 150px;
+    width: 100%;
+}
+#gonggao{
+    float: left;
+    margin-right: 100px;
+    color: white;
+}
+#banben{
+    margin-top:20px;
+    position: absolute;
+    color: white;
+
+    padding-left: 920px;
+}
+#zhong{
+    position: absolute;
+    width: 1000px;
+    margin-top: 200px;
+    margin-left: 360px;
+    background-color: #f9f9f9;
+}
+#zhong span{
+    text-align: center;
+    font-size: 16px;
+    color: #212121;
+    line-height: 24px;
+    float: left;
+    margin: 30px 25px;
+    cursor: pointer;
+}
+.hh{
+    border-bottom: 2px solid #00a1d6;
+}
+.huodong{
+    display: block;
+}
+.huati{
+    display: none;
+}
+.gonggao{
+    display: none;
+
+}
+.hd222{
+    margin-left: 5px;
+}
+.gg222{
+    margin-left: 5px;
+}
